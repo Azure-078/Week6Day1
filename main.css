@@ -1,0 +1,107 @@
+body, div, input, h1, p, hr{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+
+
+body {
+    background-color:#e6e3e3
+}
+
+.mainContainer {
+    height: 100vh;
+    width: 900px;
+    display: flex;
+    align-items: top;
+    flex-flow: column wrap;
+    justify-content: top;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.mainContainer h1 {
+    font-size: 40px;
+    margin: 10px;
+}
+.mainContainer hr {
+    width: 10%;
+    margin: 10px;
+    border-top: 1px solid #000000;
+}
+
+
+/* Start of alignment by class */
+
+/* Div (General for Vertical Alignment) */
+#organizer {
+    display:flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    /*setup of containers*/
+    margin: 7px;
+    height: 40px;
+    border: 2px solid #707070;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Setup of lettering ----- How do I center the price, item, and description?*/
+.inStockPrice {
+    display: inline-block;
+    margin-left: 10px;
+    text-align: left;
+}
+.inStockItem {
+    width: 115px;
+    display: inline-block;
+    text-align: left;
+    justify-content: left;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+.inStockDesc {
+    display: inline-block;
+    text-align: left;
+    justify-content: right;
+    margin-right: 50px;
+}
+
+
+
+
+/* Dark Mode Toggles */
+#lightDark {
+    margin-left: 8px;
+    font-size: 20px;
+    height: 40px;
+    width: 180px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #707070;
+    border-radius: 4px;
+}
+
+.darkMode {
+    background-color: #292424;
+}
+
+.darkDiv {
+    background-color: #615757;
+    border: 3px solid #d3cece;
+    color: #ffffff;
+}
+
+.darkHeader {
+    color: #ffffff;
+}
+
+.darkMHeader {
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+
+.darkPress {
+    color: #ffffff;
+}
